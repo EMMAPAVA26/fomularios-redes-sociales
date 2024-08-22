@@ -1,0 +1,185 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, sans-serif; 
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.left-section {
+    width: 50%;
+    padding: 20px;
+    margin-right: 200px;
+ 
+}
+
+.right-section {
+    width: 35%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateX(-220px); 
+margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left-section,
+    .right-section {
+      width: 100%;
+      margin-right: 0;
+      transform: translateX(0);
+    }
+  
+    .right-section {
+      margin-top: 30px;
+    }
+  }
+  
+    
+.logo{
+    color: #1877f2;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.account {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.profile-photo-container {
+   width: 100%;
+  
+ 
+}
+
+.profile-photo {
+  margin-left: -20px;
+}
+
+.login-form input {
+    width: 90%;
+    height: 70%;
+    padding: 18px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    font-size: 16px;
+    
+}
+
+.login-form input:focus {
+    border-color: #1877F2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(24, 119, 242, 0.5);
+}
+
+
+.login-btn {
+    background-color: #1877F2;
+    color: white;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #1877F2;
+    text-decoration: none;
+}
+
+.line {
+    margin-top: 30px;
+}
+
+.create-new-account {
+    background-color: #42B72A;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .logo {
+      font-size: 32px;
+    }
+  
+    .login-form input {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .login-btn,
+    .create-new-account {
+      padding: 10px;
+      font-size: 18px;
+    }
+  
+    .create-new-account {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  
+
+.text{
+text-align: center;
+margin-top: 20px;
+transform: translateX(180px)
+}
+.text-1{
+    text-align: center;
+    transform: translateX(180px);
+    margin-top: 0; 
+    }
+
+    @media (max-width: 768px) {
+        .profile-photo {
+          margin-left: 0;
+          width: 100px;
+        }
+      
+        .text,
+        .text-1 {
+          transform: translateX(0);
+        }
+      }
+      
+
+

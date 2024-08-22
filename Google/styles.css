@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: rgb(237, 236, 236);
+}
+
+.container {
+    width: 660px;
+    padding: 85px;
+    background-color: white;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    border-radius: 6px;
+    box-shadow: 5px 5px 25px gray;
+}
+
+
+header {
+    padding-top: 60px;
+}
+
+header img {
+ width: 100px; 
+}
+
+
+h1, h3{
+    color: rgb(77, 77, 77);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 100px;
+    margin: 2%;  
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    color: rgb(77, 77, 77);
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal
+}
+
+input[type="text"]{
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: none; 
+    border-bottom: 1px solid #575757;
+    opacity: 0.5;
+}
+
+a {    
+    margin-bottom: 30px; 
+    text-decoration: none; 
+    color: rgb(24, 119, 242); 
+}
+
+.send{
+    display: flex;
+    justify-content: space-between;    
+    margin-top: 40px;
+    margin-bottom: 120px;
+    color: rgb(77, 77, 77);
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal; 
+}
+
+input[type="submit"]{
+    width: 125px;
+    background-color: rgb(24, 119, 242);
+    border: 0;
+    border-radius: 3px;
+    color: white;
+}

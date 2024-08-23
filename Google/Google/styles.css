@@ -11,7 +11,7 @@ body{
 
 .container {
     width: 660px;
-    padding: 30px;
+    padding: 85px;
     background-color: white;
     position: absolute; 
     top: 50%; 
@@ -20,8 +20,6 @@ body{
     color: white;
     border-radius: 6px;
     box-shadow: 5px 5px 25px gray;
-
-    
 }
 
 
@@ -39,46 +37,32 @@ h1, h3{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin-top: 80px;
-    margin: 2%;
-    
-
+    margin-top: 100px;
+    margin: 2%;  
 }
 
 .data {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 110px;
     color: rgb(77, 77, 77);
     font-family: "Roboto", sans-serif;
-    font-style: normal;
-    
+    font-weight: bold;
+    font-style: normal
 }
 
 input[type="text"]{
-    font-size: 23px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
     border: none; 
     border-bottom: 1px solid #575757;
     opacity: 0.5;
-    padding-bottom: 10px;
-   
 }
 
 a {    
     margin-bottom: 30px; 
     text-decoration: none; 
-    color: rgb(24, 119, 242);
-    font-weight: bold;
-    font-size: 16px;
-
-     
-}
-
-.create {
-    font-size: 18px;
-    padding-top: 20px;
-
+    color: rgb(24, 119, 242); 
 }
 
 .send{
@@ -93,21 +77,9 @@ a {
 }
 
 input[type="submit"]{
-    width: 120px; 
-    height: 50px; 
+    width: 125px;
     background-color: rgb(24, 119, 242);
     border: 0;
-    border-radius: 5px;
+    border-radius: 3px;
     color: white;
-    font-size: 14px; 
-    cursor: pointer;
-    font-weight: bold;
-    text-align: center; 
-    line-height: 36px;
-    padding: 10px 20px;
-    margin-top: 20px;
-    
-   
-
 }
-

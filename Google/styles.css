@@ -27,11 +27,18 @@ body{
 
 header {
     padding-top: 60px;
+    
 }
 
+
 header img {
- width: 100px; 
+ width: 100px;
+ margin-right: 20px; 
 }
+
+.header-titles {
+    margin-left: -13px; 
+  }
 
 
 h1, h3{
@@ -52,6 +59,7 @@ h1, h3{
     color: rgb(77, 77, 77);
     font-family: "Roboto", sans-serif;
     font-style: normal;
+   
     
 }
 
